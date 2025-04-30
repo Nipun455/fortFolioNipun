@@ -7,8 +7,8 @@ import certificate5 from "./dpAndGreedyProgramming.pdf";
 import certificate6 from "./dsaUdemy.pdf";
 const certificates = [
   {
-    title: "React Fundamentals",
-    platform: "Coursera",
+    title: "C++ and Data Structures Algorithms",
+    platform: "Cipher School",
     date: "July 2024",
     file: certificate1,
   },
