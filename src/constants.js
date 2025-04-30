@@ -61,28 +61,25 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+     
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
+     
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      
     ],
   },
   {
@@ -92,9 +89,9 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
+     
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      
     ],
   },
   {
@@ -106,103 +103,40 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+     
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
+
   
   export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
+  
     {
       id: 1,
       img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      school: "Lovely Professional University Pagwara Punjab",
+      date: "Sept 2022 - present",
+      grade: "7 cgpa",
+      desc: "I am currently pursuing a B.Tech in Computer Science and Engineering from Lovely Professional University. Throughout my studies, I have been building a strong foundation in areas like software development, data structures, algorithms, and modern web technologies, while also gaining practical experience through projects",
+      degree: "B.tech (Computer Science)",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      img: glaLogo,
+      school: "Surendranath Centenary School , Ranchi",
+      date: "Apr 2021 - March 2022",
+      grade: "75.8%",
+      desc: "I completed my class 12 education from Surendranath Centenary School , Ranchi, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) ",
+      degree: "CBSE(XII) - PCM ",
     },
     {
       id: 3,
       img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+      school: "Ram Tahal Choudary High School, Ranchi",
+      date: "Apr 2019 - March 2020",
+      grade: "79%",
+      desc: "I completed my class 10 education from Ram Tahal Choudary High School, Ranchi, under the CBSE board, where I studied Science with Computer.",
       degree: "CBSE(X), Science with Computer Application",
     },
   ];
@@ -210,33 +144,33 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Weather App",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+"A sleek and easy-to-use weather application that provides real-time weather updates for any city worldwide. Simply enter a city name, and the app retrieves detailed weather information, including temperature, humidity, and weather conditions. The clean and user-friendly interface ensures a smooth experience, making it a perfect tool for anyone looking to check the weather quickly and efficiently.",
       image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Nipun455/WeatherApp",
+      webapp: "https://weather-app-phi-orcin-38.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Tic Tac Toe Game",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "A simple and interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. This game provides an engaging way for users to play the classic Tic Tac Toe game against either a friend or the computer. The clean and intuitive interface ensures a smooth experience, making it a fun and easy-to-play game for all ages",
       image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+      tags: [ "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Nipun455/TicTacToe",
+      webapp: "https://tic-tac-toe-ochre-omega.vercel.app",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Notes App",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "I have created a Notes App using React and Express.js. This app allows users to easily add, edit, delete, and view their notes. The frontend is built with React, offering a responsive and interactive user interface, while the backend is powered by Express.js, ensuring efficient data handling and storage. This project demonstrates my ability to work with full-stack technologies, providing a seamless and functional note-taking experience.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Node.js", "express.js"],
+      github: "https://github.com/Nipun455/Notes_App",
+      webapp: "https://notes-app-flame-gamma.vercel.app/",
     },
     {
       id: 3,
@@ -250,13 +184,13 @@ export const SkillsInfo = [
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Study Portal ",
       description:
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
+      tags: ["JavaScript", "React.js","express.js", "HTML", "CSS"],
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      webapp: "https://study-tech-full-stack.vercel.app/",
     },
     {
       id: 5,
@@ -268,34 +202,34 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
     },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+    // {
+    //   id: 6,
+    //   title: "Coding Master",
+    //   description:
+    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+    //   image: cmLogo,
+    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+    //   github: "https://codingmasterweb.in/",
+    //   webapp: "https://codingmasterweb.in/",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Image Search App",
+    //   description:
+    //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    //   image: imagesearchLogo,
+    //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    //   github: "https://github.com/codingmastr/Image-Search-App",
+    //   webapp: "https://imagsearch.netlify.app/",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Image Background Remover",
+    //   description:
+    //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+    //   image: removebgLogo,
+    //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+    //   github: "https://github.com/codingmastr/Image-Background-Remover",
+    //   webapp: "https://removeyourbg.netlify.app/",
+    // },
   ];  

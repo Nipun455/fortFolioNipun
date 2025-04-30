@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Nipun Kumar Singh
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -41,15 +41,16 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+          I’m a full-stack developer with over 1 
+          years of hands-on experience creating 
+          scalable web applications. 
+          I work across both front-end and back-end, 
+          mainly using the MERN stack and other modern tools, 
+          to build smooth user experiences and efficient, reliable solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://files.lpu.in/Placements/CV/CV_202502151227081395_12218904.docx"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -75,7 +76,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Nipun Kumar Singh"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
